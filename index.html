@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Responsive Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container text-light align-items-center">
+            <h2 class="text-uppercase">Lorem Ipsum</h2>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-between pt-3 pt-sm-3 pt-lg-0 flex-lg-row-reverse " id="navBar">
+                    <li><input class="form-control" type="text" placeholder="Search"></li>
+                    <div class="navOptions d-flex flex-column  flex-lg-row">
+                        <li class="p-2 px-lg-5">Dolor</li>
+                        <li class="p-2 px-lg-5">Sit</li>
+                        <li class="p-2 px-lg-5">Amet</li>
+                        <li class="p-2 px-lg-4 d-lg-none" id="options">Opciones</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center my-4 d-none d-lg-block">
+        <h1 class="font-weight-bold">Lorem Ipsum...</h1>
+        <p class="font-weight-bold" id="mutableParagraph"></p>
+    </div>
+
+    <div class="container mt-4 d-flex flex-column flex-lg-row">
+        <div class="container col-lg-3 d-none d-lg-block mb-3" id="list">
+            <ul class="list-group">
+                <li class="list-group-item">Opción 1</li>
+                <li class="list-group-item">Opción 2</li>
+                <li class="list-group-item">Opción 3</li>
+                <li class="list-group-item">Opción 4</li>
+                <li class="list-group-item">Opción 5</li>
+              </ul>
+        </div>
+        <div class="container col-lg-8 flex-wrap">
+            <div class="row mb-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tempore amet quae dolorem nisi minus laudantium totam adipisci. Porro aspernatur minima explicabo nesciunt et facere, esse pariatur ab libero id.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light  mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam blanditiis assumenda corporis minima corrupti eveniet. Inventore veritatis laborum sapiente soluta necessitatibus facere doloremque quod iusto voluptatem? Dolore, ab omnis.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light  mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iure accusantium laborum? Repellendus, iure nostrum sed, deserunt nam dolore alias adipisci vero eum commodi natus ratione, aspernatur provident nesciunt illo?</p>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tempore amet quae dolorem nisi minus laudantium totam adipisci. Porro aspernatur minima explicabo nesciunt et facere, esse pariatur ab libero id.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam blanditiis assumenda corporis minima corrupti eveniet. Inventore veritatis laborum sapiente soluta necessitatibus facere doloremque quod iusto voluptatem? Dolore, ab omnis.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iure accusantium laborum? Repellendus, iure nostrum sed, deserunt nam dolore alias adipisci vero eum commodi natus ratione, aspernatur provident nesciunt illo?</p>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tempore amet quae dolorem nisi minus laudantium totam adipisci. Porro aspernatur minima explicabo nesciunt et facere, esse pariatur ab libero id.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light mb-3">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam blanditiis assumenda corporis minima corrupti eveniet. Inventore veritatis laborum sapiente soluta necessitatibus facere doloremque quod iusto voluptatem? Dolore, ab omnis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
